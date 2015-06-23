@@ -19,6 +19,28 @@ body {
 .center {
   text-align: center;
 }
+.blue1 {
+  background-color: #051869;
+}
+.blue2 {
+  background-color: #2562ab;
+}
+.blue3 {
+  background-color: #2e81ff;
+}
+.blue4 {
+  background-color: #dbe5f1;
+}
+.gray1 {
+  background-color: #333333;
+}
+.gray2 {
+  background-color: #f8f8f8;
+}
+.green1{
+  background-color: #009f21;
+}
+
 
 /*
  * Top navigation
@@ -103,6 +125,14 @@ body {
 }
 .type-a-reg span, .type-a-bold span {
   font-family: "Arial";
+}
+
+#colors th {
+  height: 50px;
+}
+#colors td{
+  padding: 20px;
+  vertical-align: top;
 }
 
 
