@@ -16,6 +16,9 @@ body {
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
 }
+.center {
+  text-align: center;
+}
 
 /*
  * Top navigation
