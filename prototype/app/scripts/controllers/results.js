@@ -120,5 +120,9 @@ angular.module('fdagoApp').controller('ResultsCtrl', function($rootScope, $scope
     $scope.drawDataTable();
     angular.element('#results-container').addClass('in');
   }, 1000);
+
+  $scope.collapse = function(index){
+    angular.element('#result-' + index).collapse('toggle');
+  };
 });
 

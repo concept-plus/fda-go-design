@@ -73,28 +73,47 @@
                           </tr>
                       </thead>
                       <tbody>
-                          <tr ng-repeat="result in results.event.items" data-index="{{$index}}">
-                              <td>
-                                {{toDate(result.transmissiondate) | date:'M/d/yyyy'}}
-                              </td>
-                              <td>{{getPatientDemographics(result)}}</td>
-                              <td>{{getPatientReaction(result)}}</td>
-                              <td>
-                                <div ng-if="formatArray(result.fdago.matchingBrandNames).length == 0">
-                                  No brand data.
+                        <tr data-index="0" class="ng-scope even" role="row">
+                          <td class="ng-binding">10/2/2014</td>
+                          <td class="ng-binding">Female</td>
+                          <td class="ng-binding">Back pain</td>
+                          <td>
+                            <div class="ng-scope">
+                              <a class="" ng-click="collapse(0)" aria-expanded="false" aria-controls="collapseExample"> Click to view affected brands.
+                              </a>
+                              <div class="collapse" id="result-0">
+                                <div class="well ng-binding">HENRY SCHEIN ASPIRIN, HEALTH MART ASPIRIN, PHARBEST ASPIRIN 325MG, REGULAR STRENGTH TRI-BUFFERED ASPIRIN, GOOD NEIGHBOR PHARMACY ASPIRIN ENTERIC SAFETY COATED, ENTERIC SAFETY COATED ASPIRIN, ENTERIC COATED LOW DOSE ASPIRIN, PHARBEST REGULAR STRENGTH ASPIRIN, CARE ONE ASPIRIN, SMART HEALTH ASPIRIN REGULAR STRENGTH, BAYER, EQUATE ASPIRIN, REGULAR STRENGTH ASPIRIN, ST. JOSEPH CHEWABLE ASPIRIN, ENTERIC COATED ASPRIN 81 MG, ASPIRIN LOW DOSE SAFETY COATED, ENTERIC COATED ASPIRIN, LOW DOSE CHEWABLE ASPIRIN, VALUE PHARMA ASPIRIN PAIN RELIEVER, EQUATE ASPIRIN CHEWABLE, ASPIRIN ADULT LOW STRENGTH ASPIRIN, LOW STRENGTH CHEWABLE ASPIRIN, HANDY SOLUTIONS GENUINE ASPIRIN BAYER, ASPIRIN LOW DOSE ENTERIC COATED, ASPIRIN SAFETY COATED, EQUALINE ASPIRIN ADULT LOW DOSE, BUFFERIN LOW DOSE BUFFERED ASPIRIN, LOW DOSE PAIN RELIEF ASPIRIN, LEADER CARDINAL HEALTH ASPIRIN, BERKLEY AND JENSEN ASPIRIN, FORMUCARE ASPIRIN, ASPIRIN LOW DOSE CHEWABLE, DIRECT SAFETY ASPIRIN, ASPIRIN ADULT LOW STRENGTH, 7 SELECT ADULT CHEWABLE ASPIRIN, ENTERIC COATED ASPIRIN REGULAR STRENGTH, KROGER VALUE ASPIRIN, SUNMARK ASPIRIN LOW DOSE, ASPIRIN REGULAR STRENGTH REGULAR STRENGTH, CHEWABLE ADULT LOW DOSE ASPIRIN, ASPIRIN DELAYED RELEASE, UNCOATED ASPIRIN, GOOD NEIGHBOR PHARMACY ASPIRIN ORANGE FLAVOR CHEWABLE, SAFETY COATED ENTERIC ASPIRIN, GOOD SENSE ASPIRIN, RUGBY ASPIRIN, ASPIRIN EXTRA STRENGTH, LOW DOSE ASPIRIN ENTERIC SAFETY COATED, LOW DOSE ASPIRIN 81 MG SAFETY COATED, ADULT LOW DOSE ASPIRIN ENTERIC SAFETY COATED
                                 </div>
-                                <div ng-if="formatArray(result.fdago.matchingBrandNames).length > 0">
-                                  <a class="" ng-click="collapse($index)" aria-expanded="false" aria-controls="collapseExample">
-                                    Click to view affected brands.
-                                  </a>
-                                  <div class="collapse" id="result-{{$index}}">
-                                    <div class="well">
-                                      {{formatArray(result.fdago.matchingBrandNames)}}
-                                    </div>
-                                  </div>
-                                </div>
-                              </td>
-                          </tr>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr data-index="1" class="ng-scope odd" role="row">
+                          <td class="ng-binding">10/2/2014</td>
+                          <td class="ng-binding">Male, 72 years old</td>
+                          <td class="ng-binding">Adenoviral haemorrhagic cystitis (Did not recover), Pyrexia</td>
+                          <td>
+                            <div class="ng-scope">
+                              <a class="" ng-click="collapse(1)" aria-expanded="false" aria-controls="collapseExample">Click to view affected brands.</a>
+                              <div class="collapse" id="result-1">
+                                <div class="well ng-binding">ACETAMINOPHEN FOR CHILDREN, ACETAMINOPHEN</div>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr data-index="2" class="ng-scope odd" role="row">
+                          <td class="ng-binding">11/2/2014</td>
+                          <td class="ng-binding">Male, 53 years old, 160lbs</td>
+                          <td class="ng-binding">Heart Attack</td>
+                          <td>
+                            <div class="ng-scope">
+                              <a class="" ng-click="collapse(2)" aria-expanded="false" aria-controls="collapseExample">Click to view affected brands.</a>
+                              <div class="collapse" id="result-2">
+                                <div class="well ng-binding">BAYER, BAYER EXTRA STRENGTH</div>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
                       </tbody>
                   </table>
               </div>
@@ -110,12 +129,36 @@
                           </tr>
                       </thead>
                       <tbody>
-                          <tr ng-repeat="result in results.label.items" data-index="{{$index}}">
-                              <td>{{formatArray(result.openfda.brand_name)}}</td>
-                              <td>{{formatArray(result.controlled_substance)}}</td>
-                              <td>{{formatArray(result.recent_major_changes)}}</td>
-                              <td>{{toDate(result.effective_time) | date:'M/d/yyyy'}}</td>
-                          </tr>
+                        <tr data-index="0" class="ng-scope odd" role="row">
+                          <td class="ng-binding">Aspirin Adult low strength</td>
+                          <td class="ng-binding"></td>
+                          <td class="ng-binding"></td>
+                          <td class="ng-binding">11/14/2012</td>
+                        </tr>
+                        <tr data-index="1" class="ng-scope odd" role="row">
+                          <td class="ng-binding">aspirin</td>
+                          <td class="ng-binding"></td>
+                          <td class="ng-binding"></td>
+                          <td class="ng-binding">6/30/2014</td>
+                        </tr>
+                        <tr data-index="2" class="ng-scope odd" role="row">
+                          <td class="ng-binding">Aspirin Enteric Coated</td>
+                          <td class="ng-binding"></td>
+                          <td class="ng-binding"></td>
+                          <td class="ng-binding">12/18/2012</td>
+                        </tr>
+                        <tr data-index="3" class="ng-scope odd" role="row">
+                          <td class="ng-binding">Aspirin Low Dose Safety Coated</td>
+                          <td class="ng-binding"></td>
+                          <td class="ng-binding"></td>
+                          <td class="ng-binding">7/15/2014</td>
+                        </tr>
+                        <tr data-index="4" class="ng-scope odd" role="row">
+                          <td class="ng-binding">Enteric Coated Aspirin</td>
+                          <td class="ng-binding"></td>
+                          <td class="ng-binding"></td>
+                          <td class="ng-binding">9/21/2012</td>
+                        </tr>
                       </tbody>
                   </table>
               </div>
@@ -132,13 +175,13 @@
                           </tr>
                       </thead>
                       <tbody>
-                          <tr ng-repeat="result in results.recall.items" data-index="{{$index}}">
-                              <td>{{toDate(result.recall_initiation_date) | date:'M/d/yyyy'}}</td>
-                              <td>{{result.product_description}}</td>
-                              <td>{{result.reason_for_recall}}</td>
-                              <td>{{formatArray(result.openfda.brand_name)}}</td>
-                              <td>{{result.recalling_firm}}</td>
-                          </tr>
+                        <tr data-index="0" class="ng-scope odd" role="row">
+                          <td class="ng-binding sorting_1">6/17/2013</td>
+                          <td class="ng-binding">ENTERIC COATED ASPIRIN (NSAID), 81 mg, 120-count tablets per bottle, distributed by: Rugby Laboratories, Inc., Duluth, Georgia 30097, NDC 0536-3086-41, UPC 3 0536-3086-41 9.</td>
+                          <td class="ng-binding">Labeling: Label Mix-Up: A complaint from a pharmacist was received that the entire contents of 1 bottle labeled as Rugby label Enteric Coated Aspirin 81 mg Tablets actually contained Acetaminophen 500 mg Tablets.</td>
+                          <td class="ng-binding">ASPIRIN</td>
+                          <td class="ng-binding">Advance Pharmaceutical Inc</td>
+                        </tr>
                       </tbody>
                   </table>
               </div>
