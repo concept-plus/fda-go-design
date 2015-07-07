@@ -38,6 +38,8 @@ Team members consisted of:
 
 The Concept Plus team held a workshop with "people" and worked together to design the initial FDA-GO prototype.  During the workshop the team presented initial design ideas to "people" during a whiteboard session and "people" were asked for feedback and recommendations.   Throughout the workshop the design was refined and initial designs were accepted by both "people" and the team.
 
+![Whiteboard](./Whiteboard/whiteboard_design_1.JPG);
+
 ## Interviews
 
 Interviews were conducted with "people" at least two times throughout the life of the project.  "People" were interviewed individually by the interaction designer and were asked to answer specific questions the team had put together.  Feedback from interviews were captured through reports and used to enhance user experience.
