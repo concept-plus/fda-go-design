@@ -9,7 +9,6 @@ Project Links  | URLs
  Working Protoype    | [http://fdago-design.conceptplusllc.net](http://fdago-design.conceptplusllc.net) 
  Mock Prototype    | [[http://invis.io/G23ERJCMY](http://invis.io/G23ERJCMY) 
  Design Style Guide   | [http://fdago-styleguide.conceptplusllc.net/](http://fdago-styleguide.conceptplusllc.net/)
- Container Advisor  | [fdago-ca.conceptplusllc.net](https://fdago-ca.conceptplusllc.net)
 
 #### Powered By
 
@@ -22,10 +21,6 @@ Project Links  | URLs
 ![InVision](./app/images/invision.png)
 ![Slack](./app/images/slack.png)
 ![Yeoman](./app/images/yeoman.png)
-
-# Installation
-
-_See the [FDA-GO Local Deployment Guide](https://github.com/concept-plus/fda-go/blob/BPA-57-1.0-open/LOCAL_DEPLOYMENT.md)_
 
 # Team
 
@@ -49,7 +44,7 @@ The Concept Plus team held a workshop with two users and worked together to desi
 
 Interviews were conducted with users at least two times throughout the life of the project.  Users were interviewed individually by the interaction designer and were asked to answer specific questions the team had put together.  Feedback from interviews were captured through reports and used to enhance user experience.
 
-#Iterative User Interface Design
+## Iterative User Interface Design
 
 The user interface design was developed through an iterative approach.  The initial design was developed during the participatory design workshop. Paper wireframes were then created and users were asked to complete a series of tasks and provide feedback as well as accessing an interactive clickable prototype.  The wireframes and clickable prototypes were updated based on feedback captured and users were put through another round of interviews to refine the design even further.
 
@@ -58,15 +53,7 @@ The user interface design was developed through an iterative approach.  The init
 
 _See our [Attachment E: Approach Criteria Evidence](./APPROACH_CRITERIA_EVIDENCE.md)_
 
-Once the team was in place, we immediately held a project kickoff meeting to come up with ideas for the prototype.  Many ideas were presented to the product owner and the decision was made to create FDA-GO - a prototype allowing consumers to execute a drug search for its adverse events, labeling, and recalls. In addition, it also provides a fast way to get recall information for the past 12 months relating to drugs, medical devices, and food. FDA-GO consumes the [OpenFDA APIs](http://open.fda.gov).
-
-[ add content about first day(s) here. ]
-
-[ include pictures of initial whiteboard design ]
-
-[ add jira sprint info and maybe some screenshots ]
-
-[ add info about bug tracking and resolution ]
+Once the team was in place, we immediately held a project kickoff meeting to come up with ideas for the prototype.  Many ideas were presented to the product owner and the decision was made to create FDA-GO - a prototype allowing consumers to execute a drug search for its adverse events, labeling, and recalls. In addition, it also provides a fast way to get recall information for the past 12 months relating to drugs, medical devices, and food. FDA-GO will consume the [OpenFDA APIs](http://open.fda.gov).
 
 # Technologies
 
@@ -91,26 +78,6 @@ Keeping in mind the short timeframe, we still wanted to create a prototype that 
 * **Selenium** - Browser automation
 * **OpenFDA** - REST API
 * **Amazon Web Services** - IaaS
-
-# Environments
-
-[ add content/screenshots here for Amazon, Docker, cAdvisor, etc. ]
-
-[ describe CI process here ]
-
-# Testing
-
-## Unit Testing
-
-Once you have FDA-GO setup on your local system. You can run the following command to execute the unit tests.
-```
-grunt test
-```
-The unit tests are created using (the open source frameworks for testing) [Karma](http://karma-runner.github.io/0.12/index.html), [PhantomJS](http://phantomjs.org/), and [Jasmine](http://jasmine.github.io/). Here is a [sample unit test run](./evidence/unittest.png).
-
-## Autmated Testing
-
-[ add more content on other testing ]
 
 
 # License
