@@ -2,12 +2,12 @@
 
 # What is FDA-GO?
 
-FDA-GO is Concept Plus' working prototype submission in response to the 18F BPA for Agile Delivery Services. 
+FDA-GO is Concept Plus' design prototype submission in response to the 18F BPA for Agile Delivery Services. 
 
 Project Links  | URLs 
  ------------- | ------------- 
  Working Protoype    | [http://fdago-design.conceptplusllc.net](http://fdago-design.conceptplusllc.net) 
- Mock Prototype    | [[http://invis.io/G23ERJCMY](http://invis.io/G23ERJCMY) 
+ Mock Prototype    | [http://invis.io/G23ERJCMY](http://invis.io/G23ERJCMY) 
  Design Style Guide   | [http://fdago-styleguide.conceptplusllc.net/](http://fdago-styleguide.conceptplusllc.net/)
 
 #### Powered By
@@ -63,22 +63,13 @@ Keeping in mind the short timeframe, we still wanted to create a prototype that 
 
 ## Modern, Open Source Technologies
 
-* **NodeJS** - Cross-platform runtime environment
-* **AngularJS** - Front-end framework
-* **Bootstrap** - Front-end UI framework
-* **GruntJS** - Javascript task runner
-* **Docker** - Container framework
-* **Karma** - Unit testing framework
-* **Jasmine** - Unit testing framework
-
-## Other Technologies
-
-* **Github** - Code repository
-* **Jenkins** - Continuous integration
-* **Selenium** - Browser automation
-* **OpenFDA** - REST API
-* **Amazon Web Services** - IaaS
-
+* **[NodeJS](http://nodejs.org)** - Cross-platform runtime environment
+* **[AngularJS](https://angularjs.org/)** - Front-end framework
+* **[Bootstrap](http://getbootstrap.com)** - Front-end UI framework
+* **[GruntJS](http://gruntjs.com/)** - Javascript task runner
+* **[Jasny Bootstrap](http://www.jasny.net/bootstrap/)** - Enhanced Bootstrap utilities
+* **[GruntJS](http://gruntjs.com)** - Javascript task runner
+* **[Datatables.net](http://www.datatables.net)** - 
 
 # License
 
