@@ -48,6 +48,9 @@ Interviews were conducted with users at least two times throughout the life of t
 
 The user interface design was developed through an iterative approach.  The initial design was developed during the participatory design workshop. Paper wireframes were then created and users were asked to complete a series of tasks and provide feedback as well as accessing an interactive clickable prototype.  The wireframes and clickable prototypes were updated based on feedback captured and users were put through another round of interviews to refine the design even further.
 
+# Design Style Guide
+
+To establish and retain the branding for the FDA-GO a design style guide was created to ensure that branding assets and guidelines are followed. See the [FDA-GO Design Style Guide ](http://fdago-styleguide.conceptplusllc.net/) for complete details.
 
 # Agile Aproach
 
@@ -57,8 +60,6 @@ _See our [Attachment E: Approach Criteria Evidence](./prototype/appROACH_CRITERI
 
 Keeping in mind the short timeframe, we still wanted to create a prototype that worked on multiple devices while satisfying all of the criterias for this challenge. The FDA-GO application will consume the [OpenFDA APIs](http://open.fda.gov). This was achieved with using many modern and open source technologies.
 
-![Architecture](./evidence/architecture.png)
-
 ## Modern, Open Source Technologies
 
 * **[NodeJS](http://nodejs.org)** - Cross-platform runtime environment
@@ -67,7 +68,7 @@ Keeping in mind the short timeframe, we still wanted to create a prototype that 
 * **[GruntJS](http://gruntjs.com/)** - Javascript task runner
 * **[Jasny Bootstrap](http://www.jasny.net/bootstrap/)** - Enhanced Bootstrap utilities
 * **[GruntJS](http://gruntjs.com)** - Javascript task runner
-* **[Datatables.net](http://www.datatables.net)** - 
+* **[Datatables.net](http://www.datatables.net)** - Advanced jQuery tables
 
 # License
 
