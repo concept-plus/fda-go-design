@@ -48,7 +48,7 @@ The user interface design was developed through an iterative approach.  The init
 
 # Design Style Guide
 
-To establish and retain the branding for the FDA-GO a design style guide was created to ensure that branding assets and guidelines are followed. See the [FDA-GO Design Style Guide ](http://fdago-styleguide.conceptplusllc.net/) for complete details.
+To establish and retain the branding for FDA-GO a design style guide was created to ensure that branding assets and guidelines are followed. See the [FDA-GO Design Style Guide ](http://fdago-styleguide.conceptplusllc.net/) for complete details.
 
 # Agile Approach
 
