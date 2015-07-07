@@ -38,7 +38,7 @@ Team members consisted of:
 
 The Concept Plus team held a workshop with "people" and worked together to design the initial FDA-GO prototype.  During the workshop the team presented initial design ideas to "people" during a whiteboard session and "people" were asked for feedback and recommendations.   Throughout the workshop the design was refined and initial designs were accepted by both "people" and the team.
 
-![Whiteboard](./Whiteboard/whiteboard_design_1.JPG);
+![Whiteboard](./Whiteboard/whiteboard_design_1.JPG)
 
 ## Interviews
 
