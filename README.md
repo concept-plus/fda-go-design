@@ -2,7 +2,7 @@
 
 # What is FDA-GO?
 
-FDA-GO is Concept Plus' design prototype submission in response to the 18F BPA for Agile Delivery Services. 
+FDA-GO is Concept Plus' working prototype submission in response to the 18F BPA for Agile Delivery Services for RFQ 4QTFHS150004
 
 Project Links  | URLs 
  ------------- | ------------- 
@@ -27,7 +27,7 @@ Project Links  | URLs
 Upon receipt of the RFQ, Yazan Ramahi was appointed and authorized to put a multidisciplinary team together to collaboratively design, develop, and deploy a working protoype.
 
 Team members consisted of:
-* **Product Manager:** (Category 1) - Yazan Ramahi- Leader given authority, responsibility, and held accountable for the quality of the FDAGO prototype.
+* **Product Manager:** (Category 1) - Yazan Ramahi- Leader given authority, responsibility, and held accountable for the quality of the FDA-GO prototype.
 * **Interaction Designer/User Researcher/Usability Tester:** (Cateogry 3) - Erica Jeffery 
 * **Visual Designer:** (Cateogry 4) - Melanie Logan
 * **Frontend Web Developer:** (Category 6) - Ponnamy Kiep
@@ -54,7 +54,7 @@ To establish and retain the branding for FDA-GO a design style guide was created
 
 # Usability Testing
 
-The goal of the usability tests was to assess overall usability of FDA Go during the design phase.  The product team was interested in learning whether users could navigate the web-based application and understand the general workflow and content of the site. 
+The goal of the usability tests was to assess overall usability of FDA-GO during the design phase.  The product team was interested in learning whether users could navigate the web-based application and understand the general workflow and content of the site. 
 
 ## Usability Test Methodology
 
@@ -62,7 +62,7 @@ The goal of the usability tests was to assess overall usability of FDA Go during
 * Conduct Design Round 1 testing utilizing paper wireframes of initial designs 
 * Conduct Design Round 2 testing utilizing a clickable proto-type
 * Collect participant feedback and provide recommendations to enhance user experience 
-* Three individuals participated in a usability test of FDA Go
+* Three individuals participated in a usability test of FDA-GO
 * Participants performed a series of 8 tasks and provided feedback
 
 ## What Participants Did
@@ -97,3 +97,7 @@ _See the [FDA-GO Local Deployment Guide](./LOCAL_INSTALLATION.md)_
 # License
 
 FDA-GO is licensed under the MIT license. For full details see the [LICENSE](./LICENSE.md) on github.
+
+# US Digital Playbook
+
+Please refer to the ["docs"](./docs) folder.
