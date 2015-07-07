@@ -93,11 +93,6 @@ Keeping in mind the short timeframe, we created a prototype that worked on multi
 
 _See the [FDA-GO Local Deployment Guide](./LOCAL_INSTALLATION.md)_
 
-## Build & local deployment
-
-Run `grunt serve` to preview the app locally at [http://localhost:9000/#/](http://localhost:9000/#/).
-Run `grunt` for building a distribution package.
-
 ## Testing
 
 Running `grunt test` will execute the unit tests with karma.
