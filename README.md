@@ -1,4 +1,4 @@
-![<Concept Plus>](./app/images/cp-full-logo-colored-315x53.png)
+![<Concept Plus>](./prototype/app/images/cp-full-logo-colored-315x53.png)
 
 # What is FDA-GO?
 
@@ -6,29 +6,20 @@ FDA-GO is Concept Plus' working prototype submission in response to the 18F BPA 
 
 Project Links  | URLs 
  ------------- | ------------- 
- Clickable Protoype    | [http://invis.io/G23ERJCMY](http://invis.io/G23ERJCMY) 
- Development Environment    | [fdago-dev.conceptplusllc.net](https://fdago-dev.conceptplusllc.net) 
- CI Environment   | [fdago-ci.conceptplusllc.net](https://fdago-ci.conceptplusllc.net)
+ Working Protoype    | [http://fdago-design.conceptplusllc.net](http://fdago-design.conceptplusllc.net) 
+ Mock Prototype    | [[http://invis.io/G23ERJCMY](http://invis.io/G23ERJCMY) 
+ Design Style Guide   | [http://fdago-styleguide.conceptplusllc.net/](http://fdago-styleguide.conceptplusllc.net/)
  Container Advisor  | [fdago-ca.conceptplusllc.net](https://fdago-ca.conceptplusllc.net)
 
 #### Powered By
 
 ![AngularJS](./app/images/angular.png)
-![AWS](./app/images/aws.png)
-![cAdvisor](./app/images/cadvisor.png)
 ![Bootstrap](./app/images/bootstrap.png)
 ![Bower](./app/images/bower.png)
-![Docker](./app/images/docker.png)
 ![Git](./app/images/git.png)
 ![Github](./app/images/github.png)
 ![Grunt](./app/images/grunt.png)
 ![InVision](./app/images/invision.png)
-![Jasmine](./app/images/jasmine.png)
-![Jenkins](./app/images/jenkins.png)
-![KarmaJS](./app/images/karma.png)
-![NightwatchJS](./app/images/nightwatch.png)
-![NodeJS](./app/images/nodejs.png)
-![Selenium](./app/images/selenium.png)
 ![Slack](./app/images/slack.png)
 ![Yeoman](./app/images/yeoman.png)
 
