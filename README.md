@@ -94,10 +94,6 @@ Keeping in mind the short timeframe, we created a prototype that worked on multi
 
 _See the [FDA-GO Local Deployment Guide](./LOCAL_INSTALLATION.md)_
 
-## Testing
-
-Running `grunt test` will execute the unit tests with karma.
-
 # License
 
 FDA-GO is licensed under the MIT license. For full details see the [LICENSE](./LICENSE.md) on github.
