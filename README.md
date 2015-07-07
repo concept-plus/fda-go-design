@@ -84,7 +84,6 @@ Keeping in mind the short timeframe, we created a prototype that worked on multi
 * **[AngularJS](https://angularjs.org/)** - Front-end framework
 * **[Bootstrap](http://getbootstrap.com)** - Front-end UI framework
 * **[Datatables.net](http://www.datatables.net)** - Advanced jQuery tables
-* **[GruntJS](http://gruntjs.com/)** - Javascript task runner
 * **[GruntJS](http://gruntjs.com)** - Javascript task runner
 * **[Jasny Bootstrap](http://www.jasny.net/bootstrap/)** - Enhanced Bootstrap utilities
 * **[Yeoman](http://yeoman.io/)** - Enhanced Bootstrap utilities
