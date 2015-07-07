@@ -50,9 +50,29 @@ The user interface design was developed through an iterative approach.  The init
 
 To establish and retain the branding for FDA-GO a design style guide was created to ensure that branding assets and guidelines are followed. See the [FDA-GO Design Style Guide ](http://fdago-styleguide.conceptplusllc.net/) for complete details.
 
-# Agile Approach
+# Usability Testing
 
-_See our [Attachment E: Approach Criteria Evidence](./prototype/appROACH_CRITERIA_EVIDENCE.md)_
+The goal of the usability tests was to assess overall usability of FDA Go during the design phase.  The product team was interested in learning whether users could navigate the web-based application and understand the general workflow and content of the site. 
+
+## Usability Test Methodology
+
+* Conduct two rounds of usability testing 
+* Conduct Design Round 1 testing utilizing paper wireframes of initial designs 
+* Conduct Design Round 2 testing utilizing a clickable proto-type
+* Collect participant feedback and provide recommendations to enhance user experience 
+* Three individuals participated in a usability test of FDA Go
+* Participants performed a series of 8 tasks and provided feedback
+
+## What Participants Did
+
+Participants were interviewed and observed during design phase round one testing and completed a series of seven tasks.  During round one testing, participants were asked to complete tasks in a hypothetical manner using paper wireframes and provide additional feedback and observations.
+
+The same participants were used during round two, however they were provided with a link to an interactive clickable proto-type and asked to complete the questionnaire and provide feedback and observations.
+
+## What Data We Collected
+
+Data collected includes the paths participants used to complete tasks, paths selected, task completion rates, and verbal feedback.  [Click here to see all test scenarios used and results]().
+
 
 # Technologies
 
@@ -63,12 +83,13 @@ Keeping in mind the short timeframe, we created a prototype that worked on multi
 * **[NodeJS](http://nodejs.org)** - Cross-platform runtime environment
 * **[AngularJS](https://angularjs.org/)** - Front-end framework
 * **[Bootstrap](http://getbootstrap.com)** - Front-end UI framework
-* **[GruntJS](http://gruntjs.com/)** - Javascript task runner
-* **[Jasny Bootstrap](http://www.jasny.net/bootstrap/)** - Enhanced Bootstrap utilities
-* **[GruntJS](http://gruntjs.com)** - Javascript task runner
 * **[Datatables.net](http://www.datatables.net)** - Advanced jQuery tables
+* **[GruntJS](http://gruntjs.com/)** - Javascript task runner
+* **[GruntJS](http://gruntjs.com)** - Javascript task runner
+* **[Jasny Bootstrap](http://www.jasny.net/bootstrap/)** - Enhanced Bootstrap utilities
+* **[Yeoman](http://yeoman.io/)** - Enhanced Bootstrap utilities
 
-# Run FDA-GO Prototype Locally
+# FDA-GO Local Installation
 
 ## Prerequisite
 
