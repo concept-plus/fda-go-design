@@ -12,15 +12,15 @@ Project Links  | URLs
 
 #### Powered By
 
-![AngularJS](./app/images/angular.png)
-![Bootstrap](./app/images/bootstrap.png)
-![Bower](./app/images/bower.png)
-![Git](./app/images/git.png)
-![Github](./app/images/github.png)
-![Grunt](./app/images/grunt.png)
-![InVision](./app/images/invision.png)
-![Slack](./app/images/slack.png)
-![Yeoman](./app/images/yeoman.png)
+![AngularJS](./prototype/app/images/angular.png)
+![Bootstrap](./prototype/app/images/bootstrap.png)
+![Bower](./prototype/app/images/bower.png)
+![Git](./prototype/app/images/git.png)
+![Github](./prototype/app/images/github.png)
+![Grunt](./prototype/app/images/grunt.png)
+![InVision](./prototype/app/images/invision.png)
+![Slack](./prototype/app/images/slack.png)
+![Yeoman](./prototype/app/images/yeoman.png)
 
 # Team
 
@@ -38,7 +38,7 @@ Team members consisted of:
 
 ## Participatory Design
 
-The Concept Plus team held a workshop with two users and worked together to design the initial fdago prototype.  During the workshop the team presented initial design ideas to users during a whiteboard session and users were asked for feedback and recommendations.   Throughout the workshop the design was refined and initial designs were accepted by both users and the team.
+The Concept Plus team held a workshop with two users and worked together to design the initial FDA-GO prototype.  During the workshop the team presented initial design ideas to users during a whiteboard session and users were asked for feedback and recommendations.   Throughout the workshop the design was refined and initial designs were accepted by both users and the team.
 
 ## Interviews
 
@@ -51,13 +51,11 @@ The user interface design was developed through an iterative approach.  The init
 
 # Agile Aproach
 
-_See our [Attachment E: Approach Criteria Evidence](./APPROACH_CRITERIA_EVIDENCE.md)_
-
-Once the team was in place, we immediately held a project kickoff meeting to come up with ideas for the prototype.  Many ideas were presented to the product owner and the decision was made to create FDA-GO - a prototype allowing consumers to execute a drug search for its adverse events, labeling, and recalls. In addition, it also provides a fast way to get recall information for the past 12 months relating to drugs, medical devices, and food. FDA-GO will consume the [OpenFDA APIs](http://open.fda.gov).
+_See our [Attachment E: Approach Criteria Evidence](./prototype/appROACH_CRITERIA_EVIDENCE.md)_
 
 # Technologies
 
-Keeping in mind the short timeframe, we still wanted to create a prototype that worked on multiple devices while satisfying all of the criterias for this challenge. This was achieved with using many modern and open source technologies.
+Keeping in mind the short timeframe, we still wanted to create a prototype that worked on multiple devices while satisfying all of the criterias for this challenge. The FDA-GO application will consume the [OpenFDA APIs](http://open.fda.gov). This was achieved with using many modern and open source technologies.
 
 ![Architecture](./evidence/architecture.png)
 
