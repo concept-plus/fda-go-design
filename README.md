@@ -71,7 +71,7 @@ The same participants were used during round two, however they were provided wit
 
 ## What Data We Collected
 
-Data collected includes the paths participants used to complete tasks, paths selected, task completion rates, and verbal feedback.  [Click here to see all test scenarios used and results]().
+Data collected includes the paths participants used to complete tasks, paths selected, task completion rates, and verbal feedback.  [Click here to see all test scenarios used and results](./Usability).
 
 
 # Technologies
