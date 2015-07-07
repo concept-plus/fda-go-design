@@ -99,8 +99,8 @@ sudo chown -R `whoami` /usr/local/lib/node_modules
 
 Clone this repository.
 ```
-$ git clone https://github.com/concept-plus/fda-go.git
-$ cd fda-go
+$ git clone https://github.com/concept-plus/fda-go-design.git
+$ cd fda-go-design/prototype
 ```
 Install the dependencies.
 
